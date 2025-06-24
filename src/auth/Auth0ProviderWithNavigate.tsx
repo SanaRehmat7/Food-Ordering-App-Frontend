@@ -18,6 +18,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
     throw new Error("unable to initialise auth");
   }
 
+  //AuthCallback...
   const onRedirectCallback = (appState?: AppState) => {
     navigate(appState?.returnTo || "/auth-callback");
   };
