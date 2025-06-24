@@ -15,6 +15,8 @@ const queryClient = new QueryClient({
   },
 });
 
+//Ayth0Provider
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Router>
